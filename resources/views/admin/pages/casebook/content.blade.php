@@ -1,0 +1,98 @@
+@extends('admin.layout.app')
+
+
+@section('content')
+
+
+    <div class="col-md-12 col-sm-12 ">
+        <div class="x_panel">
+            {{--<div class="x_title">--}}
+            {{--<h2>Responsive example<small>Users</small></h2>--}}
+            {{--<ul class="nav navbar-right panel_toolbox">--}}
+            {{----}}
+            {{--</ul>--}}
+            {{--<div class="clearfix"></div>--}}
+            {{--</div>--}}
+
+            @if ($message = Session::get('success'))
+                <div class="alert alert-success alert-block">
+                    <button type="button" class="close" data-dismiss="alert"></button>
+                    <strong>{{ $message }}</strong>
+                </div>
+            @endif
+
+            @if ($message = Session::get('delete'))
+                <div class="alert alert-danger alert-block">
+                    <button type="button" class="close" data-dismiss="alert"></button>
+                    <strong>{{ $message }}</strong>
+                </div>
+            @endif
+
+
+
+
+            <div class="x_content">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card-box table-responsive">
+                            <p class="text-muted font-13 m-b-30">
+                            </p>
+
+                            <table id="datatable-responsive" class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
+                                <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Title</th>
+                                    {{--<th>Service Category</th>--}}
+                                    {{--<th>Short Des Main</th>--}}
+                                    <th>Edit</th>
+                                    {{--<th>Delete</th>--}}
+
+                                </tr>
+                                </thead>
+                                <tbody>
+
+
+                                @if($get_casebook_data)
+
+                                    @foreach($get_casebook_data as $key=>$get_casebook_data_d)
+
+                                        <tr>
+                                            <td>{{$get_casebook_data_d->id}}</td>
+                                            <td>{{$get_casebook_data_d->title}}</td>
+
+                                            {{--<td>{{$get_casebook_data_d->get_s_cat_name()}}</td>--}}
+                                            {{--<td>{{\Illuminate\Support\Str::limit($get_casebook_data_d->short_des_main,20)}}</td>--}}
+                                            <td>
+                                                <a href="/admin/casebook/content/edit/{{$get_casebook_data_d->id}}" class="btn btn-success">Edit</a>
+                                            </td>
+                                            {{--<td>--}}
+
+                                                {{--<form action="{{ route('casebook.destroy', $get_casebook_data_d->id)}}" method="post">--}}
+                                                    {{--@csrf--}}
+                                                    {{--@method('DELETE')--}}
+                                                    {{--<button class="btn btn-danger" type="submit">Delete</button>--}}
+                                                {{--</form>--}}
+
+                                            {{--</td>--}}
+
+
+                                        </tr>
+
+                                    @endforeach
+
+                                @endif
+
+                                </tbody>
+                            </table>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+@endsection

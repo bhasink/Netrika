@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "netrika-302719",
+  "private_key_id": "f5e419523b833bfb816f8903adf9e2be13810830",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDRznRD5yhMvmxc\nDUgULabEP2OP7BFv/8wqgtMuF9vyEs+UySQUcE/Hlpe08uxR6/cmUNtINRokx6O6\n/oComRejtYIei1BJPBu7MzMHCqFjSfAO0x5KmbjdLW51KfPdtRosf4SplVZK7RBK\nrDelx1KsrVlQ2rBHlJ/x/bjOefw3aRxxbMZVI80RZGgK1FpeIAMX1cq8Zj60aAz7\ntnobk9N31ftciSFI5scD7xS/aRcZZjvvBl85eDi+rGhtvZeCZ9OvYffuGkUPI+HP\nK4mGaxdnI1Jj0Qj44FFF8+miTmvY2z63i5T7LmMSl05woiCNkM9Hry1oF2yd0TqB\nlKOqfJshAgMBAAECggEADJraHJnCz7CJl1Kzc8Xl3Oi/iS4qQoe0WxH60Mw9ajrj\n1okqliFEw8WaBfSpysax1a8aK4mIMXE+lp2Ten2fIFZnc8EUMOAv/NRXwpqqhUn0\nBpn7ugjoBL7F4ftkI7vtj4KWRG98zJnXRps36SlzX7027l8DI/vLi7j9/UayJtx5\nh+IADIJJ0yCWNg+SgrwQ1t8jCUHimsWg4Dxj8LMLqfqhu8ichftDte6zhH6SBb90\nEXLxZ+F5ybPZx1h1Cur5p2QVhBv2cChhp9/BCHBSCwTpgSODpj3XFOsoRk0834fM\nr7z5eaqzv2gdT+zNOed0VamcRRs83nSMqR3gHeyHYQKBgQDzXgIg1ltiSJonoBoP\nJPtavPsIImvEWFqIlgI7/21M+jjDzg1Gn0appWLrW10005RkgE2GW+b+cuzAsUVY\nuBTyhechggn0JjOE0EP+q8XUIBYIMzvGp/2JXscTRMwnki+RnNqCm6FXFLg8KOAw\nHCK/6WLtKaTsXjNJzRpsoFIU0QKBgQDcsnkLVDkUY5yUMv0o/uX95fAE1lYhNbOS\nTb5wYRYwuvzzQr98QCGiW9z1NZXb5YNxHeuYTlcp8tPeb6CnL0uiLS2zKWW437fV\ni/d8aFZZNQdSp7HXD3RA9S3ZTUcnbmjjf1hhrYUzlJ3FYsodEIReuzyHdP0axHAJ\nxlz1Pxj1UQKBgEGEHliOvH1CBFYEkN9g2lX8KCxxb8ek7YJ1t9ZFFjyx5BQ6ZXKM\nsG49OtsXdokhKILB050HIrF/aOMbFgsjS2hayfVIV7uliRsJIjTuM0y+8o90k3QQ\nh32yyS8Tx04j2bB+pIiisxWJW2u+qVPqTySRBPPJ0T9cwLvufl2d71rxAoGBAJsX\nVJbQhhg89CD1QBDaJ/fn6WcM1JQb7+hld+nzYCu4i9/LTVNcogY9tiYflQNl45vP\nYeuzSe+xtJABNA2o3+bFBvN7qP9lQAPyi2XC0MN5z36XWBOAybqIUcL+Wn1sSots\nx0hFL3ETBFhc1xnbrJoBzESIwwFXgEBuRI8X20sxAoGBAJqGj8n1245+0e8kBwfz\n0+BXSbG9JPngm/D8fpm7Yoq8F0kzgOTfiYzuI9Gds8olQtxepS892uMtanBO68mw\npQdjSYIMgzGWK6gc8XlORoWBeu1FCPVG9DqOL70T5shy2MX684SI9E4znX9A2hI3\nqbJrtiN9Ig6aUjZMrGntWS66\n-----END PRIVATE KEY-----\n",
+  "client_email": "google-api@netrika-302719.iam.gserviceaccount.com",
+  "client_id": "107887012796867535026",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/google-api%40netrika-302719.iam.gserviceaccount.com"
+}
